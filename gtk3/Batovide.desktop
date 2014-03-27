@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Batovide
+Exec=REPLACE/IdeMain.py %U
+Icon=REPLACE/Iconos/batovi.png
+Terminal=false
+Type=Application
+StartupNotify=true
+MimeType=application/x-ide;
+Categories=GNOME;Application;Office;
