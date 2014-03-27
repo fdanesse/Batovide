@@ -1,0 +1,9 @@
+[Activity]
+name = Batovide
+activity_version = 0.0.1
+bundle_id = org.laptop.Batovide
+icon = bide
+exec = sugar-activity IdeMain.IdeMain -s
+mime_types =
+license = GPL3
+summary =
