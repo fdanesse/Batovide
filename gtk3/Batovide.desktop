@@ -6,4 +6,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 MimeType=application/x-ide;
-Categories=GNOME;Application;Office;
+Categories=GNOME;Application;Office;Developement;Tools;

@@ -42,6 +42,9 @@ if not os.path.exists(BatovideWorkSpace):
     
 PATH = os.path.dirname(__file__)
 
+os.system("mkdir ~/bin")
+
+brand = 'Batovide'
 screen = Gdk.Screen.get_default()
 css_provider = Gtk.CssProvider()
 style_path = os.path.join(PATH, "Estilo.css")
@@ -59,8 +62,8 @@ class IdeMain(Gtk.Window):
         
         Gtk.Window.__init__(self)
         
-        #self.set_title("")
-        #self.set_icon_from_file(".png")
+        self.set_title(brand)
+        self.set_icon_from_file("Iconos/python.png")
         self.set_resizable(True)
         self.set_size_request(640, 480)
         self.set_border_width(5)
